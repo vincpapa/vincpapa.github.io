@@ -4,13 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap"> OKKKY ou can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+_Italic_ stands for corresponding author(s).
+
+## 2023
+
+* **[Post-hoc Selection of Pareto-Optimal Solutions in Search and Recommendation](https://arxiv.org/pdf/2310.11270.pdf)**  
+_Vincenzo Paparella_, Vito Walter Anelli, Franco Maria Nardini, Raffaele Perego, Tommaso Di Noia   
+*CIKM 2023*  
+
